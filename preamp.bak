@@ -2414,4 +2414,90 @@ Wire Wire Line
 Wire Wire Line
 	2800 2700 2800 2750
 Connection ~ 2800 2750
+Text Label 950  3250 0    60   ~ 0
+GRCA
+Text Label 1150 3600 0    60   ~ 0
+GRCA2
+Text Label 1200 3700 0    60   ~ 0
+GJ
+Text Label 950  3950 0    60   ~ 0
+GI
+$Comp
+L R R?
+U 1 1 554C37A9
+P 800 2200
+F 0 "R?" V 880 2200 50  0000 C CNN
+F 1 "1M" V 800 2200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 730 2200 30  0001 C CNN
+F 3 "" H 800 2200 30  0000 C CNN
+	1    800  2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 554C38D5
+P 1600 2250
+F 0 "R?" V 1680 2250 50  0000 C CNN
+F 1 "1M" V 1600 2250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1530 2250 30  0001 C CNN
+F 3 "" H 1600 2250 30  0000 C CNN
+	1    1600 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 554C39E3
+P 1350 3000
+F 0 "R?" V 1430 3000 50  0000 C CNN
+F 1 "1M" V 1350 3000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1280 3000 30  0001 C CNN
+F 3 "" H 1350 3000 30  0000 C CNN
+	1    1350 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 554C3B63
+P 1100 3100
+F 0 "R?" V 1180 3100 50  0000 C CNN
+F 1 "1M" V 1100 3100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1030 3100 30  0001 C CNN
+F 3 "" H 1100 3100 30  0000 C CNN
+	1    1100 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	800  2350 800  2550
+Wire Wire Line
+	800  2550 1050 2550
+Connection ~ 1050 2550
+Wire Wire Line
+	1200 2650 1600 2650
+Wire Wire Line
+	1600 2650 1600 2400
+Connection ~ 1200 2650
+Wire Wire Line
+	1350 2850 1350 2800
+Connection ~ 1350 2800
+Wire Wire Line
+	950  3100 950  3000
+Connection ~ 950  3000
+Wire Wire Line
+	800  2050 800  1850
+Wire Wire Line
+	1600 2100 1600 1900
+Wire Wire Line
+	1350 3150 2050 3150
+Wire Wire Line
+	1250 3100 1250 3250
+Wire Wire Line
+	1250 3250 2350 3250
+Text Label 800  1850 0    60   ~ 0
+GRCA
+Text Label 1600 1900 0    60   ~ 0
+GRCA2
+Text Label 2050 3150 0    60   ~ 0
+GJ
+Text Label 2350 3250 0    60   ~ 0
+GI
 $EndSCHEMATC

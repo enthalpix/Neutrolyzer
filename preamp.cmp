@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-22 BZR 5620)-product   date = 01/05/2015 19:51:40
+Cmp-Mod V01 Created by Cvpcb (2015-04-22 BZR 5620)-product   date = 07/05/2015 19:14:32
 
 BeginCmp
 TimeStamp = /55394E8B;
@@ -599,6 +599,62 @@ BeginCmp
 TimeStamp = /5543E66D;
 Reference = R23;
 ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /554C37A9;
+Reference = R24;
+ValeurCmp = 1M;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /554C8CCF;
+Reference = R25;
+ValeurCmp = 1M;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /554C8865;
+Reference = R26;
+ValeurCmp = 1M;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /554C3B63;
+Reference = R27;
+ValeurCmp = 1M;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /554C39E3;
+Reference = R28;
+ValeurCmp = 1M;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /554C8BBF;
+Reference = R29;
+ValeurCmp = 1M;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /554C38D5;
+Reference = R30;
+ValeurCmp = 1M;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /554C8AAD;
+Reference = R31;
+ValeurCmp = 1M;
 IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
